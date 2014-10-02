@@ -6,13 +6,13 @@ var
 user.isAdministrator(function(module) {
     "use strict";
 
-    if(isAdmin) {
+    if(user.isAdministrator) {
         iframe.parse = function(postContent, callback) {
             postContent = postContent.replace(/iframe=\w+/gm, embed);
             callback(null, postContent);
         };
     }
-    if(!isAdmin) {
+    if(!user.isAdministrator) {
         return callback;
     }
 
