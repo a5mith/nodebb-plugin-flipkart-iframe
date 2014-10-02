@@ -2,7 +2,7 @@
     "use strict";
 
     var
-        user = require('../user'),
+        user = require('./src/user'),
         iframe = {},
         embed = '<iframe src="$1"></iframe> ';
 
