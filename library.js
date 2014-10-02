@@ -1,11 +1,10 @@
+var
+    user = require('../../src/user'),
+    iframe = {},
+    embed = '<iframe src="$1"></iframe> ';
+
 user.isAdministrator(function(module) {
     "use strict";
-
-    var
-        user = require('../../src/user'),
-        iframe = {},
-        embed = '<iframe src="$1"></iframe> ';
-
 
     if(isAdmin) {
         iframe.parse = function(postContent, callback) {
