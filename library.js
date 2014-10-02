@@ -1,7 +1,9 @@
 (function(module) {
     "use strict";
 
-    var iframe = {},
+    var
+        user = require('../user'),
+        iframe = {},
         embed = '<iframe src="$1"></iframe> ';
 
 
