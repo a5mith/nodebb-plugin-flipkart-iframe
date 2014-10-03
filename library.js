@@ -6,7 +6,7 @@
 
 
     flipkart.parse = function(postContent, callback) {
-        postContent = postContent.replace(/<a href="(?:http?:\/\/)?(?:www\.)flipkart\.com\/affiliate\/displayWidget\?affrid\=([\w\-_]+)">.+<\/a>/g, embed);
+        postContent = postContent.replace(/<a href="(?:https?:\/\/)?(?:www\.)flipkart\.com\/affiliate\/displayWidget\?(?:[^"]*&)?affrid=([\w\-_]+).+<\/a>/ig, embed);
         callback(null, postContent);
     };
 
