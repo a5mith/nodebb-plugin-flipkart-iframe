@@ -1,21 +1,14 @@
-var
-    user = require('../../src/user'),
-    iframe = {},
-    embed = '<iframe src="$1"></iframe> ';
-
-user.isAdministrator(function(module) {
+(function(module) {
     "use strict";
 
-    if(user.isAdministrator) {
-        iframe.parse = function(postContent, callback) {
-            postContent = postContent.replace(/iframe=\w+/gm, embed);
-            callback(null, postContent);
-        };
-    }
-    if(!user.isAdministrator) {
-        return callback;
-    }
+    var flipkart = {},
+        embed = '<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=$1"></iframe>';
 
 
-    module.exports = iframe;
+    flipkart.parse = function(postContent, callback) {
+        postContent = postContent.replace(/<a href="(?:http?:\/\/)?(?:www\.)flipkart\.com\/affiliate\/displayWidget\?affrid\=([\w\-_]+)">.+<\/a>/g, embed);
+        callback(null, postContent);
+    };
+
+    module.exports = flipkart;
 }(module));

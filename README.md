@@ -1,14 +1,14 @@
 # NodeBB Admin iFrame
 
-This NodeBB plugin allows Admin users to embed any iFrame into their posts.
+This NodeBB plugin allows Flipkart Affiliate iFrames in posts.
 
 ## Installation
 
-    npm install nodebb-plugin-admin-iframe
+    npm install nodebb-plugin-flipkart-iframe
 
 ## Usage
 
-    ```iframe=src_of_iFrame```
+    ```flipkart#```
 
     Example:
 

@@ -1,18 +1,18 @@
 {
-  "name": "nodebb-plugin-admin-iframe",
+  "name": "nodebb-plugin-flipkart-iframe",
   "version": "0.0.1",
-  "description": "NodeBB Codepen Plugin",
+  "description": "NodeBB FlipKart iFrame Plugin",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/a5mith/nodebb-plugin-admin-iframe"
+    "url": "https://github.com/a5mith/nodebb-plugin-flipkart-iframe"
   },
   "keywords": [
     "plugin",
-    "admin-iframe",
+    "flipkart-iframe",
     "embed"
   ],
   "author": {
@@ -21,10 +21,10 @@
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/a5mith/nodebb-plugin-admin-iframe/issues"
+    "url": "https://github.com/a5mith/nodebb-plugin-flipkart-iframe/issues"
   },
   "readme": "",
   "readmeFilename": "README.md",
-  "_id": "nodebb-plugin-admin-iframe@0.0.1",
-  "_from": "nodebb-plugin-admin-iframe@~0.0.1"
+  "_id": "nodebb-plugin-flipkart-iframe@0.0.1",
+  "_from": "nodebb-plugin-flipkart-iframe@~0.0.1"
 }

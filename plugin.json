@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-admin-iframe",
-	"name": "NodeBB Admin iFrame Plugin",
-	"description": "NodeBB Plugin that allows Administrators to embed iFrames into their posts.",
-	"url": "https://github.com/a5mith/nodebb-plugin-admin-iframe",
+	"id": "nodebb-plugin-flipkart-iframe",
+	"name": "NodeBB Flipkart iFrame Plugin",
+	"description": "NodeBB Plugin that allows embeds Flipkart iFrames into posts.",
+	"url": "https://github.com/a5mith/nodebb-plugin-flipkart-iframe",
 	"library": "./library.js",
 	"hooks": [
 		{ "hook": "filter:post.parse", "method": "parse", "callbacked": true }
