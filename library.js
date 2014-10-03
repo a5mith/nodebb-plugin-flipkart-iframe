@@ -2,7 +2,7 @@
     "use strict";
 
     var flipkart = {},
-        embed = '<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=$1"></iframe>';
+        embed = '<iframe class="flipkart" src="http://www.flipkart.com/affiliate/displayWidget?affrid=$1"></iframe>';
 
 
     flipkart.parse = function(postContent, callback) {
