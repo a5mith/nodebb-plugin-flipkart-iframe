@@ -1,7 +1,7 @@
 {
 	"id": "nodebb-plugin-flipkart-iframe",
 	"name": "NodeBB Flipkart iFrame Plugin",
-	"description": "NodeBB Plugin that allows embeds Flipkart iFrames into posts.",
+	"description": "NodeBB Plugin that embeds Flipkart iFrames into posts.",
 	"url": "https://github.com/a5mith/nodebb-plugin-flipkart-iframe",
 	"library": "./library.js",
 	"hooks": [

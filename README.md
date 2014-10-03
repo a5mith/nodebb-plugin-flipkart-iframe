@@ -8,9 +8,6 @@ This NodeBB plugin allows Flipkart Affiliate iFrames in posts.
 
 ## Usage
 
-    ```flipkart#```
+Post the src of the iFrame. Will only work with valid flipkart URLs. 
 
-    Example:
-
-    iframe=http://www.website.com/affiliate=affiliateID
 
